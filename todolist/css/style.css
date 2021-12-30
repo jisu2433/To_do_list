@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap');
+
+#app {
+    font-family: 'Noto Serif KR', serif;
+    text-align: center;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 100px;
+}
+
+input { 
+    font-family: 'Noto Serif KR', serif;
+    font-size: 22px;
+    width: 50%; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid snow;
+    background: inherit;
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#todo-list {
+    list-style: none;
+    font-size: 25px;
+}
+button {
+    border: none;
+    text-align: center;
+    background: none;
+}
+
+
+#quote {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#weather {
+    font-size: 18px;
+}
